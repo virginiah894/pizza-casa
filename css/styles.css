@@ -1,20 +1,32 @@
 h2{
 margin-left:60px;
 color:black;
-font-family: 'Sofia';font-size: 41px;
-padding-top: 23px;
+font-family: 'Sofia';font-size: 51px;
+padding-top: 13px;
+text-align: center;
+right: 90%;
 }
 #nav{
   scroll-behavior: smooth;
-  background-image: url(../images/pizza_fresca.jpg);
+  background-color:black;
   background-size: cover;
-  height:140vh;
-  }
+font-size:50px;
+height:100vh;
+background-image: url(../images/newback.jpg);
+ }
   #logo{
-  width:20%;
-  height: 23%;
+  width:10%;
+  height:1%;
   }  
   #top{
     display:flex;
     flex-direction: row;
-  }                           
+    background-color:darkgrey;
+    padding:3px;
+  }  
+  
+  #landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
