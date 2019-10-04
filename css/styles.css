@@ -8,5 +8,13 @@ padding-top: 23px;
   scroll-behavior: smooth;
   background-image: url(../images/pizza_fresca.jpg);
   background-size: cover;
-  height:180vh;
-}
+  height:140vh;
+  }
+  #logo{
+  width:20%;
+  height: 23%;
+  }  
+  #top{
+    display:flex;
+    flex-direction: row;
+  }                           
