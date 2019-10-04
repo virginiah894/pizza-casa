@@ -4,8 +4,9 @@ color:black;
 font-family: 'Sofia';font-size: 41px;
 padding-top: 23px;
 }
-body{
+#nav{
   scroll-behavior: smooth;
   background-image: url(../images/pizza_fresca.jpg);
   background-size: cover;
+  height:180vh;
 }
