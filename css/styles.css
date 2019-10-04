@@ -1,0 +1,11 @@
+h2{
+margin-left:60px;
+color:black;
+font-family: 'Sofia';font-size: 41px;
+padding-top: 23px;
+}
+body{
+  scroll-behavior: smooth;
+  background-image: url(../images/pizza_fresca.jpg);
+  background-size: cover;
+}
