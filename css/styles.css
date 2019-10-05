@@ -50,3 +50,7 @@ background-image: url(../images/newback.jpg);
 *{
   padding:2px;
 }
+#order{
+  text-align: center;
+
+}
