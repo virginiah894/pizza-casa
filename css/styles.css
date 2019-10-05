@@ -52,5 +52,9 @@ background-image: url(../images/newback.jpg);
 }
 #order{
   text-align: center;
-
+padding-top: 12px;
+}
+#contacts{
+  color: brown;
+  background-color: gray;
 }
