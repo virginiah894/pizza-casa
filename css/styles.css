@@ -6,12 +6,12 @@ padding-top: 13px;
 text-align: center;
 right: 90%;
 }
-#nav{
+.col-md-7{
   scroll-behavior: smooth;
-  background-color:black;
   background-size: cover;
 font-size:50px;
 height:100vh;
+width:100%;
 background-image: url(../images/newback.jpg);
  }
   #logo{
@@ -20,7 +20,6 @@ background-image: url(../images/newback.jpg);
   }  
   #top{
     display:flex;
-    flex-direction: row;
     background-color:darkgrey;
     padding:3px;
   }  
@@ -29,4 +28,12 @@ background-image: url(../images/newback.jpg);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  h1{
+    color:white;
+  }
+  .col-md-5{
+    background-color:black;
+    background-size: cover;
+    width:40%;
   }
