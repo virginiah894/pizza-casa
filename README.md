@@ -2,7 +2,7 @@
  Delani studio website.
 
 ## Brief description of website.
-This is a portfolio website for Delani studio.The website has a brief description about us with our services and a portfolio of work we have done in the past.
+This is a website for Pizza casa,a leading piza cafe in Nairobi.This website is aimed at serving our online clientelle and provide different options.
 
 ## List of contributors
 Virginiah Periah github:virginiah@894
@@ -12,18 +12,15 @@ Virginiah periah is a student at moringa school studying Software Engineering.
 
 ## BDD
 (Behavior Driven Development)
-The website is portfolio quality and very user friendly.
-* once on the landing page, click on the mouse image to see more about us,services etc.
-* hover on the icons to get a brief summary of the different projects on the portfolio.
-* to contact us,type your email and name with your queries and a response will be sent to alert you that we are in receipt of your query.
-* our social media plattforms are on the bottom of the page.You can reach us through the same too. 
+The website is easy to load and user friendly.
+* once on the landing page, navigate to the different links on the navigation bar
+* To order: check on click on the our menu to see all the different options avalable.
+* Click on the options available to select your favorite pizza,select on the options to add crust type and toppings.
+* When through, click on the submit button and alert will pop pu to give you the total price
+* For deliveries ,click on the delivery icon and enter your details on the form. We shall send you an alert confirming that your order will be delivered at a specific time.
+* You can reach us through the social media platform to get in touch.
 ## Languages
 The website is written in english.
-## Deployment
-The link to the deployed site is https://github.com/virginiah894/studio-portfolio
-The link is also available on the git hub gh-pages of this repository.
-The website loads automatically on all browsers.
-
 ## Setup/Installation Requirements
 No setups and installations.
 ## Technologies Used
