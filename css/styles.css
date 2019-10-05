@@ -55,9 +55,15 @@ background-image: url(../images/newback.jpg);
 padding-top: 12px;
 }
 #contacts{
-  color: brown;
-  background-color: gray;
+  color:white;
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:1;
 }
 #toppings{
 float:right;
+}
+footer{
+  background-color:black;
 }
