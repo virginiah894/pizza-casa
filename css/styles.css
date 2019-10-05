@@ -4,39 +4,42 @@ color:blue;
 font-family: 'Sofia';font-size: 51px;
 text-align: center;
 }
-.col-md-7{
+/* .col-md-7{
   scroll-behavior: smooth;
   background-size: cover;
 font-size:50px;
 height:100vh;
 width:100%;
 background-image: url(../images/newback.jpg);
- }
+ } */
   #logo{
   width:30%;
   height:30%;
   } 
-  #landing{
+  /* #landing{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-  }
+  } */
   h1{
     color:blue;
     font-size: 1.8em;
     font-family:sofia;
   }
-  .col-md-5{
-    background-image: url(../images/navbckgrnd.jpg);
-    background-size: cover;
-    width:40%;
-    text-decoration-line: underline;
-    font-size: 2.3em;
+  #nav{
+    float:right;
   }
-  #logoside{
-    display: flex;
-    flex-direction: row;
-    margin: 40px;
+#nav>ul>li{
+  display: inline-block;
+}
+#nav>ul{color: aquamarine;
+}
+  #home{
+    background-image: url(../images/newback.jpg);
+    background-size: cover;
+    font-size: 2.3em;
+    height:100vh;
+    padding-top:13px;
   }
 #menu{
   padding-top:13px;
@@ -71,8 +74,6 @@ footer{
   color:white;
   text-align: center;
 }
-#map{
-  float:right;
-  width:50%;
-  height:50%;
+#fa{
+  left:80%;
 }

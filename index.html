@@ -18,19 +18,14 @@
   <title>Pizza casa</title>
 </head>
 <body>
-  
-    <div class="container">
-        <div id="nav">
-      <div class="row" id="landing">
-        <div class="col-md-7">
-          <div id="logoside"><img  id ="logo" src="images/logo1.png" alt=""> <H2>PIZZA CASA</H2>
+
+          <div id="logoside">
+            <H2>PIZZA CASA</H2>
                 <h1>Yummy to the last bite!!</h1>
-                  </div>
-        </div>
-        <div class="col-md-5">
+             <div id="nav"> 
           <ul class="nav flex-column bg-white mb-0">
             <li class="nav-item">
-              <a href="# nav" class="nav-link text-dark font-italic bg-light">
+              <a href="# home" class="nav-link text-dark font-italic bg-light">
                    HOME
               </a>
             </li>
@@ -50,9 +45,13 @@
             </li>
           </ul>
            </div>
-      </div> <!-- row -->
-    </div>
-  </div>
+          </div>
+          <div id="home">
+<p>By 1989, 5000 stores were cooking up our signature pizza experience all over the US. Today, there are more than 11.000 Domino's Pizza around the world, 6000 of which are outside the US. Kenya is now a part of this international story of pizza success.
+
+  </p>
+          </div>
+    
 
   <div id="menu">
 <h2>OUR MENU</h2>
@@ -123,10 +122,29 @@
   <div id="order">
       <button>Place Order</button>
   </div>
-  <div id="contacts">
+  <div id ="contacts">
+      <h2>CONTACT US</h2>
+      <form>
+          <fieldset>
+           <legend></legend>
+           <div class="row">
+           <div class="col-md-6"> Name<input class="data" id="name"type="text" size="40"></div>
+           <div class="col-md-6">Email<input class="data" id="email" type="text" size="40"></div>
+     </div>
+     <br>
+     <div class="row">
+        <div class="col-md-12">Your Message<input class="data"id="msg"type="text" size="130"></div>
+     </div>
+     <button id="sub"  onclick="alertFunction()">Submit</button>
+
+</fieldset>
+         </form>
+    </div>
+
   </div>
 <Footer>
     <img src="images/logo.png" alt="" width="120" height="120">
+   <div id="fa">
     <a href="#" class="fa fa-facebook fa-4x"></a>
     <a href="#" class="fa fa-twitter fa-4x"></a>
     <a href="#" class="fa fa-google fa-4x"></a>
@@ -134,7 +152,8 @@
     <a href="#" class="fa fa-youtube fa-4x"></a>
     <a href="#" class="fa fa-instagram fa-4x"></a>
     <a href="#" class="fa fa-pinterest fa-4x"></a>
-    <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.16244016024!2d36.7846067!3d-1.3004862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x940b62a3c8efde4c!2sMoringa%20School!5e0!3m2!1sen!2ske!4v1566906509377!5m2!1sen!2ske" frameborder="0" style="border:0;"></iframe>
+   </div>
+    <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.16244016024!2d36.7846067!3d-1.3004862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x940b62a3c8efde4c!2sMoringa%20School!5e0!3m2!1sen!2ske!4v1566906509377!5m2!1sen!2ske" width="400" height="450" frameborder="0" style="border:0;"></iframe>
     </div>
     <div id="cpy">
       &copy;PIZZA CASA,
