@@ -1,5 +1,5 @@
 ## Website Name
- Delani studio website.
+ Pizza casa  website.
 
 ## Brief description of website.
 This is a website for Pizza casa,a leading piza cafe in Nairobi.This website is aimed at serving our online clientelle and provide different options.
