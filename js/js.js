@@ -87,7 +87,7 @@ var loca;
 function loc() {   loca = prompt("Please Enter Location For Delivery");
 }
 function fin(){
-var   play = "Thanks for odering with us. If you chose to use our delivery service. " +  "Your pizz will be deliverd at " + loca + ".Thank You";
+var   play = "Thanks for odering with us. If you chose to use our delivery service. " +  "Your pizza will be delivered at " + loca + ".Thank You";
 alert(play);
 }
 
@@ -95,20 +95,16 @@ alert(play);
 
 
 
-// $(document).ready(function() {
+$(document).ready(function() {
    
-// function alertFunction(){
-//   var test = "test";
-//   var email = "email@domain.com"
-//   var message = "a message"
-//   test = document.getElementById("name").value;
-//   email = document.getElementById("email").value;
-//   message = document.getElementById("msg").value;
+function alertFunction(){
+  var test = "test";
+  var email = "email@domain.com"
+  var message = "a message"
+  test = document.getElementById("name").value;
+  email = document.getElementById("email").value;
+  message = document.getElementById("msg").value;
 
-//   alert("Thank you " + test + " for contacting us  We have received your message ");
-// }
-// });
-// $("#home").click(function() {
-//   $("#hide").toggle();
- 
-// });
+  alert("Thank you " + test + " for contacting us  We have received your message ");
+}
+});
