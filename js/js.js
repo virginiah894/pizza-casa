@@ -19,6 +19,8 @@
 
 
 // }); 
+$(document).ready(function() {
+   
 function alertFunction(){
   var test = "test";
   var email = "email@domain.com"
@@ -29,3 +31,8 @@ function alertFunction(){
 
   alert("Thank you " + test + " for contacting us  We have received your message ");
 }
+});
+$("#home").click(function() {
+  $("#hide").toggle();
+ 
+});
