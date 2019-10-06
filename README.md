@@ -13,7 +13,7 @@ Virginiah periah is a student at moringa school studying Software Engineering.
 ## BDD
 (Behavior Driven Development)
 The website is easy to load and user friendly.
-* once on the landing page, navigate to the different links on the navigation bar
+* On the landing page, navigate to the different links on the navigation bar
 * To order: check on click on the our menu to see all the different options avalable.
 * Click on the options available to select your favorite pizza,select on the options to add crust type and toppings.
 * When through, click on the submit button and alert will pop pu to give you the total price
