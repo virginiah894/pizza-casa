@@ -16,11 +16,9 @@ background-image: url(../images/newback.jpg);
   width:30%;
   height:30%;
   } 
-  /* #landing{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  } */
+   #logoside{
+float:left
+  } 
   h1{
     color:blue;
     font-size: 1.8em;
@@ -88,5 +86,15 @@ text-align:center;
 }
 #card{
   float: right;
-  right:100%;
+  right:90px;
+  text-align:right;
+  background-color:black;
+  background-position: 50% 50%;
+  margin-top:30px;
+}
+#cardA{
+  background-color:black;
+  float: right;
+  bottom: 80%;
+  display:none;
 }
