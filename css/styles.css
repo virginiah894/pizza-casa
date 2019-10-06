@@ -75,8 +75,10 @@ footer{
   text-align: center;
   margin-top:12px;
 }
-#fa{
-text-align:center;
+#fa>a{
+float: right;
+padding:4px;
+color:white;
 }
 #hide{
   display:none;
