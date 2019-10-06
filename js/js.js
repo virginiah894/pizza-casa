@@ -47,3 +47,7 @@ function alertFunction(){
   alert("Thank you " + test + " for contacting us  We have received your message ");
 }
 });
+
+$("#home").click(function() {
+  $("#card").toggle(); 
+});
