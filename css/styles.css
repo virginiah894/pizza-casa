@@ -40,6 +40,7 @@ background-image: url(../images/newback.jpg);
     font-size: 2.3em;
     height:100vh;
     padding-top:13px;
+    color:white;
   }
 #menu{
   padding-top:13px;
@@ -59,7 +60,7 @@ padding-top: 12px;
 }
 #contacts{
   color:white;
-  background-image: url(../images/footer.jpg);
+  background-image: url(../images/navbckgrnd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   opacity:1;
@@ -68,12 +69,14 @@ padding-top: 12px;
 float:right;
 }
 footer{
-  background-color:black;
+  background-image: url(../images/navbckgrnd.jpg);
+top:10%;
 }
 #cpy{
   color:white;
   text-align: center;
+  margin-top:12px;
 }
 #fa{
-  left:80%;
+text-align:center;
 }
