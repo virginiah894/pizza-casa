@@ -1,4 +1,5 @@
 
+
 var pizza = document.forms.namedItem("myForm");
 function bill(){
   
@@ -26,16 +27,9 @@ var loca;
 function loc() {   loca = prompt("Please Enter Location For Delivery");
 }
 function fin(){
-var   play = "Thanks for odering with us. If you chose to use our delivery service. " +  "Your pizza will be delivered at " + loca + ".Thank You";
+var   play = "Thanks for odering with us. If you chose to use our delivery service. " +  "Your pizz will be deliverd at " + loca + ".Thank You";
 alert(play);
 }
-
-
-
-
-
-$(document).ready(function() {
-   
 function alertFunction(){
   var test = "test";
   var email = "email@domain.com"
@@ -43,11 +37,11 @@ function alertFunction(){
   test = document.getElementById("name").value;
   email = document.getElementById("email").value;
   message = document.getElementById("msg").value;
+  if(test=="" || email=="" || message==""){
+  alert("All fields are required");
+  return
+  }else{
 
   alert("Thank you " + test + " for contacting us  We have received your message ");
+  }
 }
-});
-
-$("#home").click(function() {
-  $("#card").toggle(); 
-});

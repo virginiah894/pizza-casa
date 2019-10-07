@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
   <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css">
   <link 
@@ -102,6 +103,7 @@
       </a>
     </div>
   </div>  -->
+  
 <form id="myForm">
     <img src="images/topp.jpg" alt="" id="one">
     <h1>Pepperoni Pizza</h1>
@@ -156,15 +158,15 @@
   <div>
   
       
-        <input type="checkbox" name="vehicle" value="+200" class="check">Small Chesee: ksh 200<br>
-        <input type="checkbox" name="vehicle" value="+300" class="check">Medium cheese: ksh 300<br> 
-        <input type="checkbox" name="vehicle" value="+400" class="check">Large cheese: ksh 400<br>
-        <input type="checkbox" name="vehicle" value="+50" class="check">Small Mushrroms: ksh 50<br>
-        <input type="checkbox" name="vehicle" value="+100" class="check">Medium Mushrooms:ksh 100<br>
-        <input type="checkbox" name="vehicle" value="+150" class="check">Large Mushrooms: ksh 150<br>
-        <input type="checkbox" name="vehicle" value="+100" class="check">Small Olives: ksh 100<br>
-        <input type="checkbox" name="vehicle" value="+150" class="check">Medium Olives: ksh 150<br>
-        <input type="checkbox" name="vehicle" value="+200" class="check">Large Olives: ksh 200<br>
+        <input type="checkbox" name="small cheese" value="+200" class="check">Small Chesee: ksh 200<br>
+        <input type="checkbox" name="medium cheese" value="+300" class="check">Medium cheese: ksh 300<br> 
+        <input type="checkbox" name="Large cheese" value="+400" class="check">Large cheese: ksh 400<br>
+        <input type="checkbox" name="Small Mushroom" value="+50" class="check">Small Mushrooms: ksh 50<br>
+        <input type="checkbox" name="Medium Mushroom" value="+100" class="check">Medium Mushrooms:ksh 100<br>
+        <input type="checkbox" name="  Large Mushroom" value="+150" class="check">Large Mushrooms: ksh 150<br>
+        <input type="checkbox" name="Small olives" value="+100" class="check">Small Olives: ksh 100<br>
+        <input type="checkbox" name="medium olives" value="+150" class="check">Medium Olives: ksh 150<br>
+        <input type="checkbox" name="large olives" value="+200" class="check">Large Olives: ksh 200<br>
              <input type="checkbox" id="del" onclick="loc();" value="+200" class="check">To Be Delivered: ksh 200<br>
       
        <label>Number of Orders</label> <input type="number" id="numb" value="1">
@@ -177,8 +179,32 @@
   <div id="order">
       <button onclick="fin();">Place Order</button>
   </div>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Checkout
+</button>
 
-  <div id="backim">
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Order Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      Here is what you have ordered
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div id="backim">
   <div id ="contacts">
       <h2>CONTACT US</h2>
       <form>
@@ -216,6 +242,7 @@
     </div>
   </Footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/js.js"></script>
 </body>
