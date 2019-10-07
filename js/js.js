@@ -23,11 +23,12 @@ for (i = 0; i < pizza.length; i++) {
   document.getElementById("bill").innerHTML= "ksh " + tot ;
   if(isNaN(tot)|| tot == 0){ document.getElementById("bill").innerHTML="Nothing has been selceted";}
 }
+
 var loca;
 function loc() {   loca = prompt("Please Enter Location For Delivery");
 }
 function fin(){
-var   play = "Thanks for odering with us. If you chose to use our delivery service. " +  "Your pizz will be deliverd at " + loca + ".Thank You";
+var   play = "Thanks for odering with us. If you chose to use our delivery service. " +  "Your pizza will be deliverd at " + loca + ".Thank You";
 alert(play);
 }
 function alertFunction(){
@@ -45,3 +46,15 @@ function alertFunction(){
   alert("Thank you " + test + " for contacting us  We have received your message ");
   }
 }
+
+// function kam (){
+//   num = document.getElementById("numb").value;
+//   alert(num);
+//   pep1  = document.getElementById("pepperoni").innerHTML
+//   alert(pep1);
+// }
+// function Checkout(price, quantity, delivery){
+//   this.price = price;
+//   this.quantity = quantity;
+//   this.delivery = delivery;
+//  }
